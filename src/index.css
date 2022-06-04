@@ -1,0 +1,12 @@
+/* Import external dependencies first  */
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap');
+
+/* Optional tailwind set up */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom */
+.font-firamono {
+    font-family: Fira Mono;
+}
