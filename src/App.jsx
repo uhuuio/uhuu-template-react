@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 
 // Define sample data for local development
-const sampleData = { first_name: 'Jane', last_name: 'Doe', message: 'Good to see you' };
+const sampleData = { "first_name": 'Jane', "last_name": 'Doe', "message": 'Good to see you' };
 
 function App() {
 	// payload state changes with incoming uhuu payload event.
-	const [ payload, setPayload ] = useState($uhuu.payload() || sampleData);
+	const [payload, setPayload] = useState($uhuu.payload() || sampleData);
 
 	// listen $uhuu sdk changes and set payload.
 	$uhuu.listen('payload', (data) => {
@@ -16,7 +16,7 @@ function App() {
 		() => {
 			// Do something after payload update.
 		},
-		[ payload ]
+		[payload]
 	);
 
 	return (
