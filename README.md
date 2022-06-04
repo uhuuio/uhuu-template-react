@@ -10,7 +10,10 @@ Install mkcert (only once).
 brew install mkcert
 brew install nss # if you use Firefox
 mkcert -install
-# generate a certificate for your localhost, signed by mkcert
+```
+
+Generate a certificate for your localhost, signed by mkcert
+``` bash
 mkdir -p .cert && mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem 'localhost'
 ```
 
