@@ -1,6 +1,11 @@
 # Uhuu Template React
 
 An example uhuu template using react and vite.js.
+
+![Build and upload template to uhuu.io](http://platform.uhuu.io/videos/screencasts/4-uhuu-sdk/uhuu-template-sdk-github.gif)
+
+Test your template on app.uhuu.io while developing. Upload built uhuu.zip file and create PDF documents.
+
 > Requirement : Local server must run over HTTPS.
 
 ### Set up HTTPS for local development
