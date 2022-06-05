@@ -6,8 +6,7 @@
     "dev": "vite",
     "uhuu": "concurrently \"vite\" \"vite build --watch\"",
     "build": "vite build",
-    "preview": "vite preview",
-    "uhuu-zip": "vite plugin:vite-plugin-uhuu"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.0.0",
