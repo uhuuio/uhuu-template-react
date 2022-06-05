@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Page } from './template/Page'
 
 // Define sample data for local development
-const sampleData = { "first_name": "Jane", "last_name": "Doe", "message": "Good to see you" };
+import sampleData from './sample_data.json'
 
 function App() {
 	// Declare payload state variable to store $uhuu template payload
