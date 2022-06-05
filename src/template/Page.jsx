@@ -4,7 +4,7 @@ export function Page(props) {
 	const { payload } = props;
 
 	return (
-		<h1 className="text-center font-firamono bg-indigo-100 text-indigo-600 h-screen flex items-center justify-center px-12">
+		<div className="text-center font-firamono bg-indigo-100 text-indigo-600 h-screen flex items-center justify-center px-12">
         <div>
           <div className="font-bold text-6xl text-center">
             Hey,{payload.first_name} {payload.last_name}
@@ -18,6 +18,6 @@ export function Page(props) {
             <img src="https://platform.uhuu.io/common/brand/logos/uhuu_owl.svg" />
           </div>
         </div>
-      </h1>
+      </div>
 	);
 }
