@@ -4,6 +4,10 @@ import uhuu from 'vite-plugin-uhuu'
 import fs from 'fs';
 import path from 'path';
 
+// serve over localhost
+import dns from 'dns'
+dns.setDefaultResultOrder('verbatim')
+
 export default ({ mode }) => {
     // Load app-level env vars to node-level env vars.
     process.env = {...process.env, ...loadEnv(mode, process.cwd())};
@@ -38,4 +42,3 @@ export default ({ mode }) => {
 
     return defineConfig(config);
 }
-
